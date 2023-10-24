@@ -1,0 +1,170 @@
+body{
+
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', serif;
+    margin: 0, auto;
+    padding: 15px;
+}
+
+.main-container{
+    display: flex;
+   justify-content:space-around;
+    padding: 15px;
+    width: 100%;
+    
+    
+}
+
+
+aside{
+   
+    width: 600px;
+}
+
+article{
+    margin-bottom: 30px;
+    width: 600px;
+    
+    
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+   
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+h2{
+    font-size: 56 px;
+    line-height: 20px;
+}
+img{
+width: 100%;
+height: 100%;
+
+
+}
+
+span{
+    color: blue;
+}
+
+p{
+    max-width: 700px;
+    line-height: 20px;
+    text-align: justify;
+    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: blue;
+    transition: 0.3s all;
+}
+
+#entrar-btn{
+    border: 2px solid;
+    border-color: blue;
+    padding: 10px;
+
+    border-radius: 20px;
+
+}
+
+#entrar-btn:hover{
+background-color: blue;
+
+color: white;
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+form [type="submit"]{
+
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    align-self: center;
+
+}
+
+form [type="submit"]:hover{
+cursor: pointer;
+
+}
+
+#imagem-sobre{
+   height: 50%;
+   width: 50%;
+
+
+
+}
+
+.container-flex{
+display: flex;
+    background-color: red;
+    border: 2ppx solid yellow;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    justify-content:space-around;
+
+}
+
+.item{
+
+    background-color: gray;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+
+}
+
